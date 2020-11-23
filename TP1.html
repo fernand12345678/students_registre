@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PAGE D'INSCRIPTION</title>
+  </head>
+  
+  <body  background="Rugissement_lionne.jpg"><font color="gray" size="5" face="viner hand itc"><center>
+ 
+ <center>
+  <fieldset style="width:90%;">
+    <LEGEND>FORMULAIRE D'IDENTIFICATION</LEGEND>
+    <table align=center bgcolor=#c0c0c0>
+	 <form name="infos" action=enregistrement.php method=post>
+	 <tr>
+	   <td><label>Matricule:</label></td>
+	   <td><input type="text" name="matricule" placeholder="entrez votre matricule"></td>
+	 </tr>
+	 <tr>
+	   <td><label>Nom:</label></td>
+	   <td><input type="text" name="nom" placeholder="entrez votre nom"></td>
+	 </tr>
+	 <tr>
+	   <td><label>Prénom:</label></td>
+	   <td><input type="text" name="prenom" placeholder="entrez votre prenom"></td>
+	 </tr>
+	 <tr>
+	   <td><label>Né le:&nbsp;Jour:</label></td>
+	   <td><select name="jour"><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option>
+	   <option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option>
+	   <option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option>
+	   <option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+	   <option>31</option></select>
+	   
+	   <label>&nbsp;Mois:</label><select name="mois"><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option>
+	   <option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option></select>
+	   
+	   <label>&nbsp;Année:</label><select name="annee"><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option>
+	   <option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option>
+	   <option>2009</option></select></td>
+	 </tr>
+	 <tr>
+	   <td><label>Sexe:</label></td>
+	   <td><input type="radio" name="sexe" value="M">Masculin
+	       <input type="radio" name="sexe" value="F">Feminin
+	   </td>
+	 </tr>
+	 <tr>
+	   <td><label>Dilpômes:</label></td>
+	   <td><input type="checkbox" name="diplome[]" value="CEP">CEP<br>
+	       <input type="checkbox" name="diplome[]" value="BEPC">BEPC<br>
+	       <input type="checkbox" name="diplome[]" value="Probatoire">PROBATOIRE<br>
+	       <input type="checkbox" name="diplome[]" value="BAC">BACCALAUREAT
+	   </td>
+	 </tr>
+	 <tr>
+	   <td colspan=2 align=center><input type="reset" name="annuler" value="Annuler">
+	       <input type="submit" name="valider" value="Valider">
+	   </td>
+	 </tr>
+	 </form>
+    </table>
+	</fieldset>
+  </body>  
+  
+  </center>
+ </html>
+ 
